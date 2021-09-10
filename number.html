@@ -1,0 +1,33 @@
+<!-- index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GuessMe App</title>
+</head>
+<body>
+    <div class="title"><h1><a href="/index.html">GuessMe Apps</a></h1>
+        <img id="logo" style="width:100px;height:100px;" src="/logo/logo.png">
+    </div>
+    <div class="card-container">
+        <div class="card-item"><div><img src="/svg/number.svg"/></div><a href="/number.html">Guess Random Number</a></div>
+        <div class="card-item"><div><img src="/svg/word.svg"/></div><a href="#">Guess Word</a></div>
+        <div class="card-item"><div><img src="/svg/flag.svg"/></div><a href="#">Guess Country</a></div>
+    </div>
+    <div class="number-container">
+        <div class="number-item" id="user-item"><div><img src="/svg/user.svg"/></div><span>User</span><div id="user"><input id="getNumber" type="number" min="1" max="5" placeholder="Guess 1-5 Number"></div><button id="btn" onclick="guessButton()">Guess</button><p id="warning"></p><button id="reset" onclick="reset()">Reset</button></div>
+        <div class="number-item" id="score-item"><div><img src="/svg/score.svg"/></div><span>Score</span><div id="computer-display">Computer: <span id="computer-score">0</span></div><div id="user-display">User: <span id="user-score">0</span></div></div>
+        <div class="number-item" id="computer-item"><div><img src="/svg/computer.svg"/></div><span>Computer</span><div id="computer">Choosed: <span id="computer-guess"></span></div></div>
+    </div>
+    <div class="explanation-container">
+        <div class="explanation-item">
+            <div>Created with ❤️ and Enthusiasm by <a href="https://github.com/madaskalas" target="_blank"><span>@madaskalas</span></a></div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
