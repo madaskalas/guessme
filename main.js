@@ -27,6 +27,9 @@ function guessButton() {
             console.log(`Wrong Choice: ${wrongChoice}`);
             wrongChoice++;
             document.getElementById("computer-score").innerHTML = wrongChoice;
+            if (wrongChoice >= 10) {
+                document.getElementById("message").innerHTML = "Computer Said: Loser";
+            }
         }
         else if (isNaN(getNumber)) {
             document.getElementById("warning").innerHTML = "Please enter a number!";

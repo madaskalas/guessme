@@ -97,6 +97,7 @@ button {
     color: red;
     background-color: white;
     font-weight: bold;
+    border-radius: 7px;
 }
 #computer-display, #user-display {
     margin-top: 2.5rem;
@@ -152,4 +153,13 @@ button {
 }
 #reset {
     cursor: pointer;
+}
+#message {
+    background-color: white;
+    color: red;
+    font-size: 120%;
+    border-radius: 7px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 13%;
 }
