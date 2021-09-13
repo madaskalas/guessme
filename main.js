@@ -21,15 +21,14 @@ function guessButton() {
             console.log(`Right Choice: ${rightChoice}`);
             rightChoice++;
             document.getElementById("user-score").innerHTML = rightChoice;
+            document.getElementById("message").innerHTML = "User Said: I Won!";
         }
         else if (random != getNumber && !isNaN(getNumber)) {
             console.log(`You guessed wrong.`);
             console.log(`Wrong Choice: ${wrongChoice}`);
             wrongChoice++;
             document.getElementById("computer-score").innerHTML = wrongChoice;
-            if (wrongChoice >= 10) {
-                document.getElementById("message").innerHTML = "Computer Said: Loser";
-            }
+            document.getElementById("message").innerHTML = "Computer Said: I Won!";
         }
         else if (isNaN(getNumber)) {
             document.getElementById("warning").innerHTML = "Please enter a number!";
@@ -41,3 +40,7 @@ function guessButton() {
 function reset() {
     location.reload();
 }
+/*
+Choosed: Waiting for choice.
+Change height to fit.
+*/
