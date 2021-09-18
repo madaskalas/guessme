@@ -38,14 +38,14 @@ a:hover {
     text-align: center;
     font-size: 120%;
 }
-.number-container {
+.word-container {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
     margin-top: 5%;
 }
-.number-item {
+.word-item {
     background-color: #6699FF;
     padding: 1rem;
     height: 22.5rem;
@@ -53,14 +53,14 @@ a:hover {
     font-size: 120%;
 }
 @media (min-width: 550px) {
-    .number-container { grid-template-columns: repeat(2, 1fr); }
+    .word-container { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 900px) {
-    .number-container { grid-template-columns: repeat(3, 1fr); }
+    .word-container { grid-template-columns: repeat(3, 1fr); }
 }
 #computer{
     margin-top: 2.4rem;
-    height: 2.5rem;
+    height: 2.2rem;
     text-align: center;
     background-color: white;
     font-size: 160%;
@@ -72,7 +72,7 @@ span:hover {
     font-size: 110%;
     text-decoration: underline;
 }
-input[type=number] {
+input[type=text] {
     height: 2.5rem;
     font-size: 80%;
     padding: 18px;
@@ -90,9 +90,6 @@ button {
     width: 10rem;
     height: 3rem;
 }
-#computer-item, #score-item {
-    display: none;
-}
 #warning {
     color: red;
     background-color: white;
@@ -107,13 +104,16 @@ button {
     font-size: 160%;
     border-radius: 7px;
 }
-#btn {
+#startGameBtn, #guessBtn {
     border-radius: 7px;
     font-weight: bold;
     font-style: italic;
 }
-#btn:hover {
+#startGameBtn:hover, #guessBtn:hover {
     cursor: pointer;
+}
+#startGameBtn {
+    margin-right: 2%;
 }
 #user {
     margin-top: 2.5rem;
@@ -122,7 +122,7 @@ button {
     background-color: white;
     font-size: 160%;
 }
-#computer:hover, #computer-display:hover, #user-display:hover, #user:hover, input[type=number]:hover {
+#computer:hover, #computer-display:hover, #user-display:hover, #user:hover, input[type=text]:hover {
     background-color: lightgray;
 }
 #reset {
@@ -131,7 +131,7 @@ button {
     font-weight: bold;
     font-style: italic;
 }
-#computer-score, #user-score, #computer-guess {
+#computer-score, #user-score, #computer-word {
     font-weight: bold;
     font-style: italic;
     font-size: 110%;
@@ -162,4 +162,7 @@ button {
     font-weight: bold;
     font-style: italic;
     margin-top: 13%;
+}
+#score-item {
+    display: none;
 }
