@@ -19,13 +19,18 @@
         <div class="card-item"><div><img src="/svg/flag.svg"/></div><a href="#">Guess Country</a></div>
     </div>
     <div class="number-container">
-        <div class="number-item" id="user-item"><div><img src="/svg/user.svg"/></div><span>User</span><div id="user"><input id="getNumber" type="number" min="1" max="5" placeholder="Guess 1-5 Number"></div><button id="btn" onclick="guessButton()">Guess</button><p id="warning"></p><button id="reset" onclick="reset()">Reset</button></div>
+        <div class="number-item" id="user-item"><div><img src="/svg/user.svg"/></div><span>User</span><div id="user"><input id="getNumber" type="number" min="1" max="5" placeholder="Guess a number"></div><button id="btn" title="Guess a number between 1️⃣-5️⃣" onclick="guessButton()">Guess</button><p id="warning"></p><button title= "🔄 Reset the game." id="reset" onclick="reset()">Reset</button></div>
         <div class="number-item" id="score-item"><div><img src="/svg/score.svg"/></div><span>Score</span><div id="computer-display">Computer: <span id="computer-score">0</span></div><div id="user-display">User: <span id="user-score">0</span></div><p id="message"></p></div>
-        <div class="number-item" id="computer-item"><div><img src="/svg/computer.svg"/></div><span>Computer</span><div id="computer">Choosed: <span id="computer-guess"></span></div></div>
+        <div class="number-item" id="computer-item"><div><img src="/svg/computer.svg"/></div><span>Computer</span><div id="computer">Choosed: <span id="computer-guess"></span></div><button title="🍀 Shows correct guessed numbers." id="btn" onclick="showHistory()">History</button><p id="history"></p></div>
+    </div>
+    <div class="explanation-container">
+        <div class="explanation-item">
+            <b>Instructions:</b> Enter a number between 1️⃣-5️⃣ in the field and then press Guess. If you guess correctly you gain 1 point, otherwise computer gains 1 point.
+        </div>
     </div>
     <div class="about-container">
         <div class="about-item">
-            <div>Created with ❤️ and Enthusiasm by <a href="https://github.com/madaskalas" target="_blank"><span>@madaskalas</span></a></div>
+            Created with ❤️ and Enthusiasm by <a href="https://github.com/madaskalas" target="_blank"><span>@madaskalas</span></a>
         </div>
     </div>
 </body>

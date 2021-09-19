@@ -108,6 +108,7 @@ button {
     border-radius: 7px;
     font-weight: bold;
     font-style: italic;
+    
 }
 #startGameBtn:hover, #guessBtn:hover {
     cursor: pointer;

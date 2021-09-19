@@ -241,12 +241,15 @@ function GuessWord() {
     if (userTyped == randomWord) {
         wrongChoice++;
         document.getElementById("user-score").innerHTML = wrongChoice;
-        document.getElementById("message").innerHTML = "User: I Won!";
+        document.getElementById("message").innerHTML = `Correct! Word was: /${randomWord}/`;
+    }
+    else if (userTyped == "") {
+        document.getElementById("message").innerHTML = "Please type a word! You lost your turn!";
     }
     else {
         rightChoice++;
         document.getElementById("computer-score").innerHTML = rightChoice;
-        document.getElementById("message").innerHTML = "Computer: I Won!";
+        document.getElementById("message").innerHTML = `Wrong! Correct Word: /${randomWord}/`;
     }
     this.disabled = true;
     document.getElementById("startGameBtn").disabled = false;
