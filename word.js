@@ -1,3 +1,4 @@
+// Array with words
 let words = [
     "the",
     "be",
@@ -199,6 +200,7 @@ let words = [
     "line"
 ];
 
+// Define variables
 let rightChoice = 0;
 let wrongChoice = 0;
 let random;
@@ -207,15 +209,19 @@ let hiddenWord;
 let arr = [];
 let count = 0;
 
+// Call function with button pressed
 document.getElementById("startGameBtn").addEventListener("click", startGame);
 let startGameButton = document.getElementById("startGameBtn");
 
+// Call function with button pressed
 document.getElementById("guessBtn").addEventListener("click", GuessWord);
 let guessButton = document.getElementById("guessBtn");
 
 function startGame() {
     console.log("Game Starts!");
     document.getElementById("score-item").style.display = "block";
+
+    // Record counter in order to set to empty input field
     count++;
     if (count > 1) {
         document.getElementById("guessWord").value = "";
@@ -223,32 +229,43 @@ function startGame() {
     startGameButton.innerHTML = "Next";
     this.disabled = true;
     document.getElementById("guessBtn").disabled = false;
+
+    // Set variable to range from 0 till the word array length
     random = Math.floor(Math.random() * words.length - 1);
+    // Choose a random word from the array
     randomWord = words[random];
+    // Change to lowercase
+    randomWord = randomWord.toLowerCase();
     console.log(`Random Number 2nd: ${random}`);
+    // Save length of random word
     let wordLength = randomWord.length;
     hiddenWord = randomWord.replace(randomWord[Math.floor(Math.random() * wordLength)], "*");
     console.log(`Random Word 1: ${randomWord}`);
     document.getElementById("computer-word").innerHTML = hiddenWord;
-    arr.push(randomWord);
-    console.log(arr);
+    document.getElementById("computer-item").style.display = "block";
 }
 
 function GuessWord() {
     let userTyped = document.getElementById("guessWord").value;
     console.log(`User typed: ${userTyped}`);
-    console.log(`Random Word 2: ${randomWord}`);  
-    if (userTyped == randomWord) {
-        wrongChoice++;
-        document.getElementById("user-score").innerHTML = wrongChoice;
+    console.log(`Random Word 2: ${randomWord}`); 
+    
+    // If user typed the correct missing word
+    if (userTyped.toLowerCase() == randomWord) {
+        rightChoice++;
+        // Push the correct guessed word to the array
+        arr.push(randomWord);
+        console.log(arr);
+        document.getElementById("user-score").innerHTML = rightChoice;
         document.getElementById("message").innerHTML = `Correct! Word was: /${randomWord}/`;
     }
+    // Check if input field is empty
     else if (userTyped == "") {
         document.getElementById("message").innerHTML = "Please type a word! You lost your turn!";
     }
     else {
-        rightChoice++;
-        document.getElementById("computer-score").innerHTML = rightChoice;
+        wrongChoice++;
+        document.getElementById("computer-score").innerHTML = wrongChoice;
         document.getElementById("message").innerHTML = `Wrong! Correct Word: /${randomWord}/`;
     }
     this.disabled = true;
@@ -256,6 +273,16 @@ function GuessWord() {
     
 }
 
+// Resets the webpage
 function reset() {
     location.reload();
+}
+// Shows all the correct guessed numbers
+function showHistory() {
+    if (arr === undefined || arr.length == 0) {
+        document.getElementById("history").innerHTML = "You did not guess correctly any word yet. Please guess again!";
+    }
+    else {
+        document.getElementById("history").innerHTML = `Correct Guesses: ${arr}`;
+    }
 }

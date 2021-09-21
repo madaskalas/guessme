@@ -19,9 +19,15 @@
         <div class="card-item"><div><img src="/svg/flag.svg"/></div><a href="#">Guess Country</a></div>
     </div>
     <div class="word-container">
-        <div class="word-item" id="computer-item"><div><img src="/svg/computer.svg"/></div><span>Computer</span><div id="computer">Find Whole Word: <p id="computer-word"></p></div></div>
-        <div class="word-item" id="user-item"><div><img src="/svg/user.svg"/></div><span>User</span><div id="user"><input id="guessWord" type="text" placeholder="Type the Word"></div><button id="startGameBtn">Start</button><button id="guessBtn" disabled>Guess</button><p id="warning"></p><button id="reset" onclick="reset()">Reset</button></div>
+        <div class="word-item" id="user-item"><div><img src="/svg/user.svg"/></div><span>User</span><div id="user"><input id="guessWord" type="text" placeholder="Type the Word"></div><button id="startGameBtn" title="📰 Starts the game.">Start</button><button id="guessBtn" title="🎲 Guess the word." disabled>Guess</button><p id="warning"></p><button id="reset" onclick="reset()" title="🔄 Resets the game.">Reset</button></div>
+        <div class="word-item" id="computer-item"><div><img src="/svg/computer.svg"/></div><span>Computer</span><div id="computer"><p id="computer-word"></p></div><button title="🍀 Shows correct guessed numbers." id="btn" onclick="showHistory()">History</button><p id="history"></p></div>
         <div class="word-item" id="score-item"><div><img src="/svg/score.svg"/></div><span>Score</span><div id="computer-display">Computer: <span id="computer-score">0</span></div><div id="user-display">User: <span id="user-score">0</span></div><p id="message"></p></div>
+    </div>
+    <div class="explanation-container">
+        <div class="explanation-item">
+            <b>Instructions:</b> Press <i>Start</i> to start the Game. Type in the field the whole word. Then press <i>Guess</i>. If you find the correct
+            word you gain 1 point, otherwise computer gains 1 point. <i>It does not matter if you type lowercase or uppercase.</i>
+        </div>
     </div>
     <div class="about-container">
         <div class="about-item">
