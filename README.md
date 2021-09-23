@@ -11,11 +11,11 @@
 * [License](#license)
 
 ## General Information
-- This is a web based app that has 3 mini-games. 
-- 1. The user guesses a random number against the computer.
-- 2. The user tries to find the word against a missing character.
-- 3. The user is presented with a country flag and tries to find the country name.
-- The purpose of this project is to practice web technologies.
+> This is a web based app that has 3 mini-games. 
+1. The user guesses a random number against the computer.
+2. The user tries to find the word against a missing character.
+3. The user is presented with a country flag and tries to find the country name.
+> The purpose of this project is to practice web technologies.
 
 ## Technologies Used
 - HTML5
