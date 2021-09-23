@@ -1,8 +1,10 @@
-# rquote
+# guessme
+
 > This is a web based app that has some mini games about random (or not) guessing.
 > Live demo [_here_](https://www.websource.gr/portfolio/guessme/index.html).
 
 ## Table of Contents
+
 * [General Information](#general-information)
 * [Technologies Used](#technologies-used)
 * [Screenshots](#screenshots)
@@ -11,28 +13,34 @@
 * [License](#license)
 
 ## General Information
-> This is a web based app that has 3 mini-games. 
-1. The user guesses a random number against the computer.
-2. The user tries to find the word against a missing character.
-3. The user is presented with a country flag and tries to find the country name.
-> The purpose of this project is to practice web technologies.
+
+* This is a web based app that has 3 mini-games.
+* The purpose of this project is to practice web technologies.
+* The user guesses a random number against the computer.
+* The user tries to find the word against a missing character.
+* The user is presented with a country flag and tries to find the country name.
 
 ## Technologies Used
-- HTML5
-- CSS3
-- Javascript
+
+* HTML5
+* CSS3
+* Javascript
 
 ## Screenshots
+
 ![Home](https://websource.gr/portfolio/guessme/scrot/scrot1.png)
 ![Guess Random Number](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
 ![Guess Word](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
 ![Guess Country](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
 
 ## Project Status
+
 Project is: _completed_ ✔️
 
 ## Contact
+
 Created by [@madaskalas](https://github.com/madaskalas)
 
 ## License
+
 MIT License 📝
