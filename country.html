@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/country.css">
+    <title>GuessMe App</title>
+</head>
+<body>
+    <div class="title"><h1><a href="/index.html">GuessMe Apps</a></h1>
+        <img id="logo" style="width:100px;height:100px;" src="/logo/logo.png">
+    </div>
+    <div class="card-container">
+        <div class="card-item"><div><img src="/svg/number.svg"/></div><a href="/number.html">Guess Random Number</a></div>
+        <div class="card-item"><div><img src="/svg/word.svg"/></div><a href="/word.html">Guess Word</a></div>
+        <div class="card-item"><div><img src="/svg/flag.svg"/></div><a href="/country.html"><b><i>Guess Country</i></b></a></div>
+    </div>
+    <div class="country-container">
+        <div class="country-item" id="user-item"><div><img src="/svg/user.svg"/></div><span>User</span><div id="user"><input id="guessCountry" type="text" placeholder="Type the Word"></div><button id="startGameBtn" title="📰 Starts the game.">Start</button><button id="guessBtn" title="🎲 Guess the country." disabled>Guess</button><p id="warning"></p><button id="reset" onclick="reset()" title="🔄 Resets the game.">Reset</button></div>
+        <div class="country-item" id="computer-item"><div><img src="/svg/computer.svg"/></div><span>Computer</span><div id="computer"><p id="computer-country"></p></div><button title="🍀 Shows correct guessed countries." id="btn" class="hbtn" onclick="showHistory()">History</button><p id="history"></p></div>
+        <div class="country-item" id="score-item"><div><img src="/svg/score.svg"/></div><span>Score</span><div id="computer-display">Computer: <span id="computer-score">0</span></div><div id="user-display">User: <span id="user-score">0</span></div><p id="message"></p></div>
+    </div>
+    <div class="explanation-container">
+        <div class="explanation-item">
+            <b>Instructions:</b> Press <i>Start</i> to start the Game. Type in the field the name of the country. Then press <i>Guess</i>. If you find the correct
+            country you gain 1 point, otherwise computer gains 1 point. <i>It does not matter if you type lowercase or uppercase.</i>
+        </div>
+    </div>
+    <div class="about-container">
+        <div class="about-item">
+            <div>Created with ❤️ and Enthusiasm by <a href="https://github.com/madaskalas" target="_blank"><span>@madaskalas</span></a></div>
+        </div>
+    </div>
+</body>
+<script src="/js/country.js"></script>
+</html>
