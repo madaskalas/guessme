@@ -23,10 +23,10 @@
 - Javascript
 
 ## Screenshots
-![Home](https://websource.gr/portfolio/guessme/scrot/scrot1.PNG)
-![Guess Random Number](https://websource.gr/portfolio/guessme/scrot/scrot2.PNG)
-![Guess Word](https://websource.gr/portfolio/guessme/scrot/scrot2.PNG)
-![Guess Country](https://websource.gr/portfolio/guessme/scrot/scrot2.PNG)
+![Home](https://websource.gr/portfolio/guessme/scrot/scrot1.png)
+![Guess Random Number](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
+![Guess Word](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
+![Guess Country](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
 
 ## Project Status
 Project is: _completed_ ✔️
