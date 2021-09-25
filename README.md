@@ -30,8 +30,8 @@
 
 ![Home](https://websource.gr/portfolio/guessme/scrot/scrot1.png)
 ![Guess Random Number](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
-![Guess Word](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
-![Guess Country](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
+![Guess Word](https://websource.gr/portfolio/guessme/scrot/scrot3.png)
+![Guess Country](https://websource.gr/portfolio/guessme/scrot/scrot4.png)
 
 ## Project Status
 
