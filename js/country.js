@@ -1,105 +1,105 @@
 let country = {
-    "0": [{"name": "Afghanistan", "image": "/portfolio/guessme/flags/Afghanistan.png"}
+    "0": [{"name": "Afghanistan", "image": "./flags/Afghanistan.png"}
 ],
-"1": [{"name": "Afghanistan", "image": "/portfolio/guessme/flags/Afghanistan.png"}
+"1": [{"name": "Afghanistan", "image": "./flags/Afghanistan.png"}
 ],
-"2": [{"name": "Albania", "image": "/portfolio/guessme/flags/Albania.png"}
+"2": [{"name": "Albania", "image": "./flags/Albania.png"}
 ],
-"3": [{"name": "Algeria", "image": "/portfolio/guessme/flags/Algeria.png"}
+"3": [{"name": "Algeria", "image": "./flags/Algeria.png"}
 ],
-"4": [{"name": "Andorra", "image": "/portfolio/guessme/flags/Andorra.png"}
+"4": [{"name": "Andorra", "image": "./flags/Andorra.png"}
 ],
-"5": [{"name": "Angola", "image": "/portfolio/guessme/flags/Angola.png"}
+"5": [{"name": "Angola", "image": "./flags/Angola.png"}
 ],
-"6": [{"name": "Anguilla", "image": "/portfolio/guessme/flags/Anguilla.png"}
+"6": [{"name": "Anguilla", "image": "./flags/Anguilla.png"}
 ],
-"7": [{"name": "Argentina", "image": "/portfolio/guessme/flags/Argentina.png"}
+"7": [{"name": "Argentina", "image": "./flags/Argentina.png"}
 ],
-"8": [{"name": "Armenia", "image": "/portfolio/guessme/flags/Armenia.png"}
+"8": [{"name": "Armenia", "image": "./flags/Armenia.png"}
 ],
-"9": [{"name": "Aruba", "image": "/portfolio/guessme/flags/Aruba.png"}
+"9": [{"name": "Aruba", "image": "./flags/Aruba.png"}
 ],
-"10": [{"name": "Australia", "image": "/portfolio/guessme/flags/Australia.png"}
+"10": [{"name": "Australia", "image": "./flags/Australia.png"}
 ],
-"11": [{"name": "Austria", "image": "/portfolio/guessme/flags/Austria.png"}
+"11": [{"name": "Austria", "image": "./flags/Austria.png"}
 ],
-"12": [{"name": "Azerbaijan", "image": "/portfolio/guessme/flags/Azerbaijan.png"}
+"12": [{"name": "Azerbaijan", "image": "./flags/Azerbaijan.png"}
 ],
-"13": [{"name": "Bahamas", "image": "/portfolio/guessme/flags/Bahamas.png"}
+"13": [{"name": "Bahamas", "image": "./flags/Bahamas.png"}
 ],
-"14": [{"name": "Bahrain", "image": "/portfolio/guessme/flags/Bahrain.png"}
+"14": [{"name": "Bahrain", "image": "./flags/Bahrain.png"}
 ],
-"15": [{"name": "Bangladesh", "image": "/portfolio/guessme/flags/Bangladesh.png"}
+"15": [{"name": "Bangladesh", "image": "./flags/Bangladesh.png"}
 ],
-"16": [{"name": "Barbados", "image": "/portfolio/guessme/flags/Barbados.png"}
+"16": [{"name": "Barbados", "image": "./flags/Barbados.png"}
 ],
-"17": [{"name": "Belarus", "image": "/portfolio/guessme/flags/Belarus.png"}
+"17": [{"name": "Belarus", "image": "./flags/Belarus.png"}
 ],
-"18": [{"name": "Belgium", "image": "/portfolio/guessme/flags/Belgium.png"}
+"18": [{"name": "Belgium", "image": "./flags/Belgium.png"}
 ],
-"19": [{"name": "Belize", "image": "/portfolio/guessme/flags/Belize.png"}
+"19": [{"name": "Belize", "image": "./flags/Belize.png"}
 ],
-"20": [{"name": "Benin", "image": "/portfolio/guessme/flags/Benin.png"}
+"20": [{"name": "Benin", "image": "./flags/Benin.png"}
 ],
-"21": [{"name": "Bermuda", "image": "/portfolio/guessme/flags/Bermuda.png"}
+"21": [{"name": "Bermuda", "image": "./flags/Bermuda.png"}
 ],
-"22": [{"name": "Bhutan", "image": "/portfolio/guessme/flags/Bhutan.png"}
+"22": [{"name": "Bhutan", "image": "./flags/Bhutan.png"}
 ],
-"23": [{"name": "Bolivia", "image": "/portfolio/guessme/flags/Bolivia.png"}
+"23": [{"name": "Bolivia", "image": "./flags/Bolivia.png"}
 ],
-"24": [{"name": "Bosnia", "image": "/portfolio/guessme/flags/Bosnia.png"}
+"24": [{"name": "Bosnia", "image": "./flags/Bosnia.png"}
 ],
-"25": [{"name": "Botswana", "image": "/portfolio/guessme/flags/Botswana.png"}
+"25": [{"name": "Botswana", "image": "./flags/Botswana.png"}
 ],
-"26": [{"name": "Brazil", "image": "/portfolio/guessme/flags/Brazil.png"}
+"26": [{"name": "Brazil", "image": "./flags/Brazil.png"}
 ],
-"27": [{"name": "Brunei", "image": "/portfolio/guessme/flags/Brunei.png"}
+"27": [{"name": "Brunei", "image": "./flags/Brunei.png"}
 ],
-"28": [{"name": "Bulgaria", "image": "/portfolio/guessme/flags/Bulgaria.png"}
+"28": [{"name": "Bulgaria", "image": "./flags/Bulgaria.png"}
 ],
-"29": [{"name": "Burundi", "image": "/portfolio/guessme/flags/Burundi.png"}
+"29": [{"name": "Burundi", "image": "./flags/Burundi.png"}
 ],
-"30": [{"name": "Cambodia", "image": "/portfolio/guessme/flags/Cambodia.png"}
+"30": [{"name": "Cambodia", "image": "./flags/Cambodia.png"}
 ],
-"31": [{"name": "Cameroon", "image": "/portfolio/guessme/flags/Cameroon.png"}
+"31": [{"name": "Cameroon", "image": "./flags/Cameroon.png"}
 ],
-"32": [{"name": "Canada", "image": "/portfolio/guessme/flags/Canada.png"}
+"32": [{"name": "Canada", "image": "./flags/Canada.png"}
 ],
-"33": [{"name": "Chad", "image": "/portfolio/guessme/flags/Chad.png"}
+"33": [{"name": "Chad", "image": "./flags/Chad.png"}
 ],
-"34": [{"name": "Chile", "image": "/portfolio/guessme/flags/Chile.png"}
+"34": [{"name": "Chile", "image": "./flags/Chile.png"}
 ],
-"35": [{"name": "China", "image": "/portfolio/guessme/flags/China.png"}
+"35": [{"name": "China", "image": "./flags/China.png"}
 ],
-"36": [{"name": "Colombia", "image": "/portfolio/guessme/flags/Colombia.png"}
+"36": [{"name": "Colombia", "image": "./flags/Colombia.png"}
 ],
-"37": [{"name": "Comoros", "image": "/portfolio/guessme/flags/Comoros.png"}
+"37": [{"name": "Comoros", "image": "./flags/Comoros.png"}
 ],
-"38": [{"name": "Croatia", "image": "/portfolio/guessme/flags/Croatia.png"}
+"38": [{"name": "Croatia", "image": "./flags/Croatia.png"}
 ],
-"39": [{"name": "Cuba", "image": "/portfolio/guessme/flags/Cuba.png"}
+"39": [{"name": "Cuba", "image": "./flags/Cuba.png"}
 ],
-"40": [{"name": "Cyprus", "image": "/portfolio/guessme/flags/Cyprus.png"}
+"40": [{"name": "Cyprus", "image": "./flags/Cyprus.png"}
 ],
-"41": [{"name": "Denmark", "image": "/portfolio/guessme/flags/Denmark.png"}
+"41": [{"name": "Denmark", "image": "./flags/Denmark.png"}
 ],
-"42": [{"name": "Djibouti", "image": "/portfolio/guessme/flags/Djibouti.png"}
+"42": [{"name": "Djibouti", "image": "./flags/Djibouti.png"}
 ],
-"43": [{"name": "Dominica", "image": "/portfolio/guessme/flags/Dominica.png"}
+"43": [{"name": "Dominica", "image": "./flags/Dominica.png"}
 ],
-"44": [{"name": "Ecuador", "image": "/portfolio/guessme/flags/Ecuador.png"}
+"44": [{"name": "Ecuador", "image": "./flags/Ecuador.png"}
 ],
-"45": [{"name": "Egypt", "image": "/portfolio/guessme/flags/Egypt.png"}
+"45": [{"name": "Egypt", "image": "./flags/Egypt.png"}
 ],
-"46": [{"name": "Eritrea", "image": "/portfolio/guessme/flags/Eritrea.png"}
+"46": [{"name": "Eritrea", "image": "./flags/Eritrea.png"}
 ],
-"47": [{"name": "Estonia", "image": "/portfolio/guessme/flags/Estonia.png"}
+"47": [{"name": "Estonia", "image": "./flags/Estonia.png"}
 ],
-"48": [{"name": "Ethiopia", "image": "/portfolio/guessme/flags/Ethiopia.png"}
+"48": [{"name": "Ethiopia", "image": "./flags/Ethiopia.png"}
 ],
-"49": [{"name": "Fiji", "image": "/portfolio/guessme/flags/Fiji.png"}
+"49": [{"name": "Fiji", "image": "./flags/Fiji.png"}
 ],
-"50": [{"name": "Finland", "image": "/portfolio/guessme/flags/Finland.png"}
+"50": [{"name": "Finland", "image": "./flags/Finland.png"}
 ]
     };
 
