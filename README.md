@@ -1,7 +1,7 @@
 # guessme
 
 > This is a web based app that has some mini games about random (or not) guessing.
-> Live demo [_here_](https://www.websource.gr/portfolio/guessme/index.html).
+> Live demo [_here_](https://www.websource.gr/guessme).
 
 ## Table of Contents
 
@@ -28,10 +28,10 @@
 
 ## Screenshots
 
-![Home](https://websource.gr/portfolio/guessme/scrot/scrot1.png)
-![Guess Random Number](https://websource.gr/portfolio/guessme/scrot/scrot2.png)
-![Guess Word](https://websource.gr/portfolio/guessme/scrot/scrot3.png)
-![Guess Country](https://websource.gr/portfolio/guessme/scrot/scrot4.png)
+![Home](https://websource.gr/guessme/scrot/scrot1.png)
+![Guess Random Number](https://websource.gr/guessme/scrot/scrot2.png)
+![Guess Word](https://websource.gr/guessme/scrot/scrot3.png)
+![Guess Country](https://websource.gr/guessme/scrot/scrot4.png)
 
 ## Project Status
 
@@ -39,7 +39,7 @@ Project is: _completed_ ✔️
 
 ## Contact
 
-Created by [@madaskalas](https://github.com/madaskalas)
+Created by [@mariosdaskalas](https://github.com/mariosdaskalas)
 
 ## License
 
